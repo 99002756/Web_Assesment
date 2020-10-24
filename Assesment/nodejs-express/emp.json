@@ -1,0 +1,36 @@
+[
+    {
+        "empname": "Abir",
+        "city":"Gujarat",
+        "type":"UG",
+        "salary":"100000"
+    },
+    {
+        "empname": "Dev",
+        "city":"Mumbai",
+        "type":"PG",
+        "salary":"150000"
+        
+    },
+    {
+        "empname": "Arjun",
+        "city":"kolkata",
+        "type":"MBA",
+        "salary":"75000"
+        
+    },
+    {
+        "empname": "kunal",
+        "city":"Delhi",
+        "type":"MS",
+        "salary":"900000"
+        
+    },
+    {
+        "empname": "Mohan",
+        "city":"Indore",
+        "type":"R&D",
+        "salary":"100000"
+        
+    }
+]

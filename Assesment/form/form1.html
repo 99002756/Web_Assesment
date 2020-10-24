@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Forms</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color: bisque;
+        border: 100px red;
+    }
+</style>
+<body>
+    <section>
+        <h1>User Registration for course</h1>
+        <form>
+            <p><input type="text" placeholder="Enter the Name" id="UserName" /></p>
+            <p><input type="email" placeholder="Enter the Email" id="UserMail" /></p>
+            <p><input type="date" placeholder="Enter the Date of Birth" id="UserDOB" /></p>
+            <p>
+                Technologies Known:<br/>
+                <select id="userKnownTech">
+                    <option>python</option>
+                    <option>Cloud computing</option>
+                    <option>Artificial Intelligence</option>
+                    <option>Data Analytics</option>
+                    <option>Business Analytics</option>
+                </select>
+            </p>
+            <p>
+               choose Hours: <input type="radio" name="hour">6 Hours <input type="radio" name="hour">8 Hours<input type="radio" name="hour">10 Hours</p>
+            </p>
+            <button type="button">Register</button>
+            <div>
+                <button type="button">Read the content of user</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
